@@ -1,0 +1,5 @@
+# Request a feedback of present torrent status
+transmission-remote host:9091 --auth=username:password -l
+
+# Remove a torrent
+transmission-remote host:9091 --auth=username:password --torrent id --remove
