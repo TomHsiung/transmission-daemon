@@ -1,6 +1,9 @@
 # Request a feedback of present torrent status
 transmission-remote host:9091 --auth=username:password -l
 
+# Add a torrent
+transmission-remote host:9091 --auth=username:password --add /path/to/torrent
+
 # Start a torrent
 transmission-remote host:9091 --auth=username:password --torrent id --start
 
