@@ -12,3 +12,9 @@ transmission-remote host:9091 --auth=username:password --torrent id --remove
 
 # Remove the current torrent(s) and delete their downloaded data
 transmission-remote host:9091 --auth=username:password --torrent id --remove-and-delete
+
+# List session information from the server
+transmission-remote host:9091 --auth=username:password --session-info
+
+# List statistical information from the server
+transmission-remote host:9091 --auth=username:password --session-stats
