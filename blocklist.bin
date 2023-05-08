@@ -1,0 +1,8 @@
+# This file is created manually by user himself/herself under the path /var/lib/transmission-daemon/.config/transmission-daemon/blocklists/.
+# The format of the content supports P2P plaintext format. Examples below.
+
+# P2P plaintext format
+# RangeName:FirstIP-LastIP
+
+Xunlei1:218.93.92.222-218.93.92.222
+Xunlei2:49.65.236.31-49.65.236.31
